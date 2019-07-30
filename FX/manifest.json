@@ -1,0 +1,134 @@
+{
+    "name" : "飞侠",
+    "appid" : "__UNI__DE0106F",
+    "description" : "飞贷代理，三级返佣",
+    "versionName" : "1.0.2",
+    "versionCode" : 102,
+    "transformPx" : false,
+    "app-plus" : {
+        /* 5+App特有相关 */
+        "modules" : {
+            "Share" : {},
+            "Push" : {}
+        },
+        /* 模块配置 */
+        "distribute" : {
+            /* 应用发布信息 */
+            "android" : {
+                /* android打包配置 */
+                "permissions" : [
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ]
+            },
+            "ios" : {},
+            /* ios打包配置 */
+            "sdkConfigs" : {
+                "share" : {}
+            },
+            "icons" : {
+                "ios" : {
+                    "appstore" : "static/images/feixia/logo.png",
+                    "ipad" : {
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                    }
+                },
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "ldpi" : "unpackage/res/icons/48x48.png",
+                    "mdpi" : "unpackage/res/icons/48x48.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                }
+            },
+            "splashscreen" : {
+                "ios" : {
+                    "iphone" : {
+                        "retina35" : "static/images/feixia/start640960.png",
+                        "retina40" : "static/images/feixia/6401136.png",
+                        "retina40l" : "static/images/feixia/1136640.png",
+                        "retina47" : "static/images/feixia/7501334.png",
+                        "retina47l" : "static/images/feixia/1334750.png",
+                        "retina55" : "static/images/feixia/12422208.png",
+                        "retina55l" : "static/images/feixia/22081242.png",
+                        "iphonex" : "static/images/feixia/11252436.png",
+                        "iphonexl" : "static/images/feixia/24361125.png",
+                        "portrait-896h@2x" : "static/images/feixia/8281792.png",
+                        "landscape-896h@2x" : "static/images/feixia/12422688.png",
+                        "protrait-896h@3x" : "static/images/feixia/1792828.png",
+                        "landscape-896h@3x" : "static/images/feixia/26881242.png"
+                    },
+                    "ipad" : {
+                        "portrait7" : "static/images/feixia/7681024png.png",
+                        "portrait-retina7" : "static/images/feixia/15362048.png",
+                        "landscape7" : "static/images/feixia/1024768.png",
+                        "landscape-retina7" : "static/images/feixia/20481536png.png",
+                        "portrait-1112h@2x" : "static/images/feixia/16682224.png",
+                        "landscape-1112h@2x" : "static/images/feixia/22241668.png",
+                        "portrait-1194h@2" : "static/images/feixia/16682338.png",
+                        "landscape-1194h@2x" : "static/images/feixia/23881668.png",
+                        "portrait-1366h@2x" : "static/images/feixia/20182732.png",
+                        "landscape-1366h@2x" : "static/images/feixia/27322018png.png"
+                    }
+                },
+                "android" : {
+                    "hdpi" : "static/images/feixia/480762.png",
+                    "xhdpi" : "static/images/feixia/7201242.png",
+                    "xxhdpi" : "static/images/feixia/10801882.png"
+                }
+            }
+        },
+        "splashscreen" : {
+            "delay" : 2000
+        }
+    },
+    /* SDK配置 */
+    "quickapp" : {},
+    /* 快应用特有相关 */
+    "mp-weixin" : {
+        /* 小程序特有相关 */
+        "appid" : "",
+        "setting" : {
+            "urlCheck" : true
+        }
+    }
+}

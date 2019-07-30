@@ -1,0 +1,158 @@
+	.index{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/* justify-content: center; */
+		width:100vw;
+		height: 100vh;
+		background-color: #E6E8EC;
+
+	}
+	.index-top{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/* justify-content: center; */
+		width:100vw;
+		height: 100vh;
+		background-color: #E6E8EC;
+	}
+	.index-top image{
+		margin-top: 250upx;
+		width:200upx;
+		height: 200upx;
+	}
+	.index-t-bold{
+		margin-top: 20upx;
+		font-size: 50upx;
+		font-weight:900;
+		color:#585858;
+	}
+	.index-t-s{
+		color: #E43D3D;
+		font-weight: bold;
+		margin-top: 20upx;
+	}
+	.index-t-s:hover{
+		color: #ff5c62;
+	}
+	.index-title{
+		margin-top: 20upx;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.index-login{
+		margin-top: 500upx;
+		width:85vw;
+		height: 90upx;
+		background-color: #E43D3D;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 36upx;
+		color: #fff;
+		font-weight: bold;
+		border-radius: 10upx;
+		box-shadow: 0 0 0 0 rgba(0,0,0,0.20), 0 10upx 6upx 0 rgba(0,0,0,0.10), 0 0upx 0upx 0 rgba(0,0,0,0.10);
+	}
+		
+	.index-login:hover{
+		background-color: #D43D3D;
+	}
+	
+	@font-face {
+		font-family: "iconfont";
+		src: url('data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAAR0AAsAAAAABrwAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADMAAABCsP6z7U9TLzIAAAE8AAAARAAAAFY8dkfyY21hcAAAAYAAAABKAAABcOcotapnbHlmAAABzAAAAMQAAADIPQytx2hlYWQAAAKQAAAALwAAADYTodl3aGhlYQAAAsAAAAAcAAAAJAfeA4NobXR4AAAC3AAAAAgAAAAICAAAAGxvY2EAAALkAAAABgAAAAYAZAAAbWF4cAAAAuwAAAAgAAAAIAEPAFFuYW1lAAADDAAAAUUAAAJtPlT+fXBvc3QAAARUAAAAHgAAAC/oenhseJxjYGRgYOBikGPQYWB0cfMJYeBgYGGAAJAMY05meiJQDMoDyrGAaQ4gZoOIAgCKIwNPAHicY2BkYWCcwMDKwMHUyXSGgYGhH0IzvmYwYuRgYGBiYGVmwAoC0lxTGByeMTxjYG7438AQw9zA0AAUZgTJAQDdJQvjeJztkLENgDAQA8/KQ4EYgSo1s1Cxf8kaycfAFrF0lnz66oEFKMmZBOhGjFxpZV/Y7IPqmxj+obW/c4cbrczs7uNb/tUL6ijqCWkAAHicFcs5DoJAFIDheQ8jjcHtMSgIKqOQuGCc0bFxiQmSWNp7ETwOnMLKeBHP4A1cqr/5P2Yw9nkaD+PAJkyxlDGIDrCHjU5QhBY6Aer1ao9KcpOsiukQlzo2pV5FYZV4WwZIFoYJ/h5UYC/cGSIl5+X2IgmgPwrq7tiZaaS+CGyA3twD5QqhhOhey9vpdCvvxT8FpI1WzDejOF36092Rux2wqSYGfB42fc/zhxTVvV7r9adK4DvLfzLPsry4l3n2BcHVJKR4nGNgZGBgAOLFWcdV4/ltvjJwszCAwA1Hr70I+v9BFgZmeyCXg4EJJAoAItMJ+gB4nGNgZGBgbvjfwBDDwgACQJKRARUwAQBHCAJrBAAAAAQAAAAAAAAAAGQAAAABAAAAAgBFAAMAAAAAAAIAAAAKAAoAAAD/AAAAAAAAeJxlj01OwzAQhV/6B6QSqqhgh+QFYgEo/RGrblhUavdddN+mTpsqiSPHrdQDcB6OwAk4AtyAO/BIJ5s2lsffvHljTwDc4Acejt8t95E9XDI7cg0XuBeuU38QbpBfhJto41W4Rf1N2MczpsJtdGF5g9e4YvaEd2EPHXwI13CNT+E69S/hBvlbuIk7/Aq30PHqwj7mXle4jUcv9sdWL5xeqeVBxaHJIpM5v4KZXu+Sha3S6pxrW8QmU4OgX0lTnWlb3VPs10PnIhVZk6oJqzpJjMqt2erQBRvn8lGvF4kehCblWGP+tsYCjnEFhSUOjDFCGGSIyujoO1Vm9K+xQ8Jee1Y9zed0WxTU/3OFAQL0z1xTurLSeTpPgT1fG1J1dCtuy56UNJFezUkSskJe1rZUQuoBNmVXjhF6XNGJPyhnSP8ACVpuyAAAAHicY2BigAAuBuyAiZGJkZmBtTKzPDWPgQEADY8CRwAA') format('woff');
+
+	}
+
+	.iconfont {
+	  font-family:"iconfont" !important;
+	  font-size:16px;
+	  font-style:normal;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	}
+
+	.icon-yiwen:before {
+		content: "\e600"; 
+		color:#aaa;
+		font-size:16px;
+	}
+	.icon-yiwen:hover:before{
+		color:#ccc;
+	}
+	.index-t-s{
+		font-size:14px;
+		color: #E43D3D;
+		margin-top: 20upx;
+	}
+	
+	.index-update{
+		position: fixed;
+		top:0px;
+		width:100vw;
+		height: 100vh;
+		background-color: rgba(0,0,0,.5);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.update-c{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/* justify-content: center; */
+		width:76vw;
+		height: 280upx;
+		background-color: #FFFFFF;
+		border-radius: 10upx;
+		padding:30upx 0 0 0;
+		box-shadow: 0 0 0px 0 rgba(0,0,0,0.30), 0 0 52upx 12upx rgba(0,0,0,0.13), 0px 0px 0px 0px rgba(222,222,222,0.10);
+		
+	}
+	
+	.update-remind{
+		font-size:26upx;
+		color:#b9b9b9;
+		/* font-weight: bold; */
+	}
+	
+	.update-content{
+		font-size: 26upx;
+		/* font-weight: bold; */
+		color:#676767;
+		margin-bottom: 20upx;
+		padding:30upx 30upx 30upx 30upx;
+		border-bottom: 1upx solid #ccc;
+	}
+	
+	.update-button{
+		width:100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.update-cancel,.update-confirm{
+		width:50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-weight: bold;
+		font-size: 28upx;
+		color:#E43D3D;
+	}
+	
+	.update-cancel{
+		border-right: 1upx solid #ccc;
+	}
+	
+	.active{
+		filter:blur(28upx);
+	}

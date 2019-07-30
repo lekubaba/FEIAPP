@@ -1,0 +1,97 @@
+view{
+	box-sizing: border-box;
+}
+.groups{
+	width:100vw;
+	min-height:100vh;
+	background-color:#E6E8EC;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin:0upx;
+}
+
+.groups-list{
+	margin-top:2upx;
+	width:100vw;
+	height: 70upx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+.groups-list view{
+	width:25%;
+	height: 70upx;
+	background-color:#28303B;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 34upx;
+	font-weight: bold;
+	color: #fff;
+}
+
+.groups-num{
+	margin-top: 20upx;
+	width:100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding:0 40upx 0 40upx;
+}
+
+.num-a,.num-b{
+	width:100%;
+	height: 45upx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+.num-b{
+	font-weight: bold;
+	color:#E43D3D;
+}
+
+.groups-all{
+	margin-top:20upx;
+	width:100vw;
+	height: auto;
+}
+
+.menu-s{
+	margin-top: 10upx;
+	width:100%;
+	height: 50upx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1upx dashed #999;
+}
+
+.groups-menu{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width:25%;
+	height: auto;
+	font-weight: bold;
+	color:#575757;
+}
+
+.groups-c{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width:25%;
+	height: auto;
+	font-size: 24upx;
+	color:#575757;
+}

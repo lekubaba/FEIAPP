@@ -1,0 +1,142 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                "navigationBarTitleText" : "",
+                "navigationBarBackgroundColor" : "#E6E8EC",
+                "backgroundColorTop" : "#E6E8EC",
+                "backgroundColorBottom" : "#E6E8EC",
+                "enablePullDownRefresh" : false,
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/guize/guize",
+            "style" : {
+                "navigationBarTitleText" : "三级返佣规则",
+                "navigationBarBackgroundColor" : "#28303B",
+                "navigationBarTextStyle" : "white",
+                "backgroundColorTop" : "#E6E8EC",
+                "backgroundColorBottom" : "#E6E8EC"
+            }
+        },
+        {
+            "path" : "pages/login/login",
+            "style" : {
+                "navigationBarTitleText" : "代理登录",
+                "navigationBarBackgroundColor" : "#28303B",
+                "navigationBarTextStyle" : "white",
+                "backgroundColorTop" : "#E6E8EC",
+                "backgroundColorBottom" : "#E6E8EC"
+            }
+        },
+        {
+            "path" : "pages/center/center",
+            "style" : {
+                "navigationBarTitleText" : "",
+                "enablePullDownRefresh" : false,
+                "onReachBottomDistance" : 50
+            }
+        },
+        {
+            "path" : "pages/methods/methods",
+            "style" : {
+/*                "navigationBarTitleText" : "",
+				"navigationBarBackgroundColor" : "#E43D3D",
+				"backgroundColor" : "#f8f8f8",
+				"backgroundColorTop" : "#f8f8f8",
+				"backgroundColorBottom" : "#f8f8f8", */
+				"app-plus":{
+					"titleNView":false,
+					"statusbar":{
+						"background":"#E43D3D"
+					}
+				}
+				
+            }
+        },
+        {
+            "path" : "pages/groups/groups",
+            "style" : {
+                "navigationBarTitleText" : "我的代理",
+                "onReachBottomDistance" : 50
+            }
+        },
+        {
+            "path" : "pages/myself/myself",
+            "style" : {
+                "navigationBarTitleText" : ""
+            }
+        },
+        {
+            "path" : "pages/agent/agent",
+            "style" : {
+                "navigationBarTitleText" : "添加代理"
+            }
+        },
+        {
+            "path" : "pages/profile/profile",
+            "style" : {
+                "navigationBarTitleText" : "本月详情"
+            }
+        },
+        {
+            "path" : "pages/reward/reward",
+            "style" : {
+                "navigationBarTitleText" : "奖金自动发至支付宝"
+            }
+        },
+        {
+            "path" : "pages/alipay/alipay",
+            "style" : {
+				"navigationBarTitleText" : "绑定支付宝"
+			}
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "white",
+        "navigationBarTitleText" : "飞侠",
+        "navigationBarBackgroundColor" : "#28303B",
+        "backgroundColor" : "#E6E8EC",
+        "backgroundColorTop" : "#E6E8EC",
+        "backgroundColorBottom" : "#E6E8EC",
+        "onPullDownRefresh" : true,
+        "onReachBottomDistance" : 50
+    },
+    "tabBar" : {
+        "color" : "#b9bbbc",
+        "selectedColor" : "#c53b34",
+        "borderStyle" : "white",
+        "backgroundColor" : "#ffffff",
+        "list" : [
+            {
+                "pagePath" : "pages/center/center",
+                "iconPath" : "static/images/tab_icon/home.png",
+                "selectedIconPath" : "static/images/tab_icon/home_fill.png",
+                "text" : "首页"
+            },
+            {
+                "pagePath" : "pages/methods/methods",
+                "iconPath" : "static/images/tab_icon/methods.png",
+                "selectedIconPath" : "static/images/tab_icon/methods_fill.png",
+                "text" : "锦囊"
+            },
+            {
+                "pagePath" : "pages/groups/groups",
+                "iconPath" : "static/images/tab_icon/group.png",
+                "selectedIconPath" : "static/images/tab_icon/group_fill.png",
+                "text" : "代理"
+            },
+            {
+                "pagePath" : "pages/myself/myself",
+                "iconPath" : "static/images/tab_icon/mine.png",
+                "selectedIconPath" : "static/images/tab_icon/mine_fill.png",
+                "text" : "我的"
+            }
+        ]
+    }
+}

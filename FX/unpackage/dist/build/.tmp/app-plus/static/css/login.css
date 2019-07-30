@@ -1,0 +1,87 @@
+.login{
+/* 	position: fixed;
+	top:0upx; */
+	width:100vw;
+	min-height:100vh ;
+	background-color:#E6E8EC;
+	display: flex;
+	flex-direction: column;
+}
+.login-header{
+	width:100vw;
+	height: 360upx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.login-b{
+	font-size: 64upx;
+	font-weight: bold;
+	color:#333;
+}
+.login-s{
+	font-size: 30upx;
+	font-weight: bold;
+	color:#aaa;
+}
+
+.login-input{
+	width:100vw;
+	height: 200upx;
+	background-color:#fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.login-input input{
+	box-sizing: border-box;
+	width:90vw;
+	height: 40upx;
+	padding:0 0 0 0upx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	caret-color:rgba(211,26,24,.8);
+	
+}
+
+.icon-mima:before,.icon-shouji:before{
+	margin-right: 10upx;
+	font-size: 40upx;
+	color:#999999;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.login-line{
+	margin:30upx;
+	width:90vw;
+	height: 1upx;
+	background-color: #eee;
+}
+
+.login-button{
+	position: fixed;
+	bottom: 0px;
+	width:100vw;
+	height: 96upx;
+	background-color: #E43D3D;
+	font-size: 36upx;
+	font-weight: bold;
+	color:#fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0;
+}
+
+.login-button:hover{
+	background-color: #D43D3D;
+}

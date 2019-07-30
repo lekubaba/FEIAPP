@@ -1,0 +1,1 @@
+<template name="undefined"><view class="_view"><view class="_view status-contents"><view class="_view status top-view"></view></view><web-view webview-styles="{{webviewStyles}}" src="{{webUrl}}" class="_web-view"></web-view></view></template>

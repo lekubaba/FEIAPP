@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/guize/guize",
+    "pages/login/login",
+    "pages/center/center",
+    "pages/methods/methods",
+    "pages/groups/groups",
+    "pages/myself/myself",
+    "pages/agent/agent",
+    "pages/profile/profile",
+    "pages/reward/reward",
+    "pages/alipay/alipay"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "飞侠",
+    "navigationBarBackgroundColor": "#28303B",
+    "backgroundColor": "#E6E8EC",
+    "backgroundColorTop": "#E6E8EC",
+    "backgroundColorBottom": "#E6E8EC",
+    "onPullDownRefresh": true,
+    "onReachBottomDistance": 50
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#b9bbbc",
+    "selectedColor": "#c53b34",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/images/tab_icon/home.png",
+        "selectedIconPath": "static/images/tab_icon/home_fill.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/methods/methods",
+        "iconPath": "static/images/tab_icon/methods.png",
+        "selectedIconPath": "static/images/tab_icon/methods_fill.png",
+        "text": "锦囊"
+      },
+      {
+        "pagePath": "pages/groups/groups",
+        "iconPath": "static/images/tab_icon/group.png",
+        "selectedIconPath": "static/images/tab_icon/group_fill.png",
+        "text": "代理"
+      },
+      {
+        "pagePath": "pages/myself/myself",
+        "iconPath": "static/images/tab_icon/mine.png",
+        "selectedIconPath": "static/images/tab_icon/mine_fill.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "飞侠",
+  "compilerVersion": "1.9.4"
+}

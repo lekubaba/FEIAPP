@@ -1,0 +1,87 @@
+.alipay{
+/* 	position: fixed;
+	top:0upx; */
+	width:100vw;
+	min-height:100vh ;
+	background-color:#E6E8EC;
+	display: flex;
+	flex-direction: column;
+}
+.alipay-header{
+	width:100vw;
+	height: 360upx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.alipay-b{
+	font-size: 64upx;
+	font-weight: bold;
+	color:#333;
+}
+.alipay-s{
+	font-size: 30upx;
+	font-weight: bold;
+	color:#aaa;
+}
+
+.alipay-input{
+	width:100vw;
+	height: 100upx;
+	background-color:#fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.alipay-input input{
+	box-sizing: border-box;
+	width:90vw;
+	height: 40upx;
+	padding:0 0 0 0upx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	caret-color:rgba(211,26,24,.8);
+	
+}
+
+.icon-mima:before,.icon-shouji:before{
+	margin-right: 10upx;
+	font-size: 40upx;
+	color:#999999;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.alipay-line{
+	margin:30upx;
+	width:90vw;
+	height: 1upx;
+	background-color: #eee;
+}
+
+.alipay-button{
+	position: fixed;
+	bottom: 0px;
+	width:100vw;
+	height: 96upx;
+	background-color: #E43D3D;
+	font-size: 36upx;
+	font-weight: bold;
+	color:#fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0;
+}
+
+.alipay-button:hover{
+	background-color: #D43D3D;
+}
