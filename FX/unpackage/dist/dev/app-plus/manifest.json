@@ -156,8 +156,10 @@
       }
     },
     "uni-app": {
-      "compilerVersion": "1.9.4",
-      "control": "webview"
+      "compilerVersion": "2.2.0",
+      "control": "webview",
+      "nvueCompiler": "weex",
+      "renderer": "auto"
     }
   }
 }

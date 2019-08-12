@@ -12,7 +12,6 @@
     "pages/reward/reward",
     "pages/alipay/alipay"
   ],
-  "subPackages": [],
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "飞侠",
@@ -56,10 +55,12 @@
       }
     ]
   },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
   "splashscreen": {
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
   "appname": "飞侠",
-  "compilerVersion": "1.9.4"
+  "compilerVersion": "2.2.0"
 }
